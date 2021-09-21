@@ -6,6 +6,8 @@ public class Task6 {
     int k = 3;
 
 
+
+
     for(int i = 1 , j = k; i<=10; i++, j = j+k){
         System.out.println(i+" x"+" "+k+" "+"="+" "+j);
 
