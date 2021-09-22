@@ -15,7 +15,7 @@ public class Task2 {
 
         for (int i = value1; value2 > i; i++) {
 
-            if (i++ % 5 == 0 && i % 10 != 0) {
+            if (i % 5 == 0 && i % 10 != 0) {
 
                 System.out.println(i);
             }
