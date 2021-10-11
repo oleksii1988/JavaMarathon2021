@@ -10,6 +10,7 @@ public class Task3 {
         double value2 = scanner.nextDouble();
 
 
+
         for(int i = 0; i<5;i++,value1= scanner.nextDouble(),value2= scanner.nextDouble()){
             System.out.println(value1/value2);
 
