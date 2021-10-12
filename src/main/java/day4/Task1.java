@@ -22,9 +22,10 @@ public class Task1 {
 
 
         for (int i = 0; i < arrays.length; i++) {
-            arrays[i] = random.nextInt(10);
+           arrays[i] = random.nextInt(10);
 
-        }
+       }
+
 
         for (int x : arrays) {
 
@@ -32,12 +33,13 @@ public class Task1 {
 
             if (x > 8) {
                 countmore8++;
-
             } else if (x == 1) {
                 countEqual1++;
-            } else if (x % 2 == 0) {
+            }
+
+            if (x % 2 == 0) {
                 countEven++;
-            } else if (x % 2 != 0) {
+            } else {
                 countOdd++;
             }
 
